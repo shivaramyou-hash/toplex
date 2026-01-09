@@ -21,7 +21,7 @@ export default function Home() {
 	<div className="preloader">
 		<div className="loading-container">
 			<div className="loading"></div>
-			<div id="loading-icon"><img src="images/loader.svg" alt="" /></div>
+			<div id="loading-icon"><img src="images/logo-tki.svg" alt="" /></div>
 		</div>
 	</div>
 	{/* Preloader End */}
@@ -90,8 +90,8 @@ export default function Home() {
                             <ul className="navbar-nav mr-auto" id="menu">
                                 <li className="nav-item submenu"><a className="nav-link" href="index.html">Home</a>
                                     <ul>
-                                        <li className="nav-item"><a className="nav-link" href="index-2.html">Home - Image</a></li>
-                                        <li className="nav-item"><a className="nav-link" href="index-video.html">Home - Video</a></li>
+                                        {/* <li className="nav-item"><a className="nav-link" href="index-2.html">Home - Image</a></li>
+                                        <li className="nav-item"><a className="nav-link" href="index-video.html">Home - Video</a></li> */}
                                         <li className="nav-item"><a className="nav-link" href="index-slider.html">Home - Slider</a></li>
                                     </ul>
                                 </li>                                

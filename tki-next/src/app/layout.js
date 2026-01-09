@@ -2,8 +2,8 @@ import Script from "next/script";
 import "./globals.css";
 
 export const metadata = {
-  title: "Toplax - Factory & Industry HTML Template",
-  description: "Toplax Factory & Industry HTML Template",
+  title: "TKI Safety - Factory & Industry HTML Template",
+  description: "TKI Safety Factory & Industry HTML Template",
 };
 
 export default function RootLayout({ children }) {
@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
         
         {/* Favicon Icon */}
-        <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.png" />
+        <link rel="shortcut icon" type="image/x-icon" href="/images/logo-tki.svg" />
         {/* Google Fonts Css*/}
         <link rel="preconnect" href="https://fonts.googleapis.com/" />
         <link rel="preconnect" href="https://fonts.gstatic.com/" crossOrigin="true" />
