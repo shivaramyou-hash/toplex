@@ -59,9 +59,8 @@ export default function About() {
                                   </a>
                               </li>
                           </ul>
-                          {/* Topbar Qoute Button Start */}
                           <div className="topbar-qoute-btn">
-                              <a href="/contact" className="btn-default"><span>Get a quote</span></a>
+                              <a href="/contact" className="btn-default btn-red"><span>Get a quote</span></a>
                           </div>
                           {/* Topbar Qoute Button End */}
                       </div>
@@ -224,9 +223,8 @@ export default function About() {
                                           </div>
                                           {/* About Content List End */}
                   
-                                          {/* About Content Btn Start */}
                                           <div className="about-content-btn wow fadeInUp" data-wow-delay="0.75s">
-                                              <a href="/contact" className="btn-default"><span>contact us</span></a>
+                                              <a href="/contact" className="btn-default btn-red"><span>contact us</span></a>
                                           </div>
                                           {/* About Content Btn End */}
                                       </div>

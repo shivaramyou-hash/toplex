@@ -1,1 +1,32 @@
-/* Cleared for migration */
+:root {
+  --theme-blue: #009CDE;
+  --theme-red: #E31E24;
+  /* Override custom.css custom property */
+  --accent-color: var(--theme-blue);
+}
+
+/* Force images to be visible to fix loading issues */
+.reveal {
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+/* Override default button to use Blue theme (via accent-color var override) */
+.btn-default {
+  background-color: var(--theme-blue);
+}
+.btn-default span::after {
+  background-color: var(--theme-blue);
+}
+
+/* Red Button Style for CTAs */
+.btn-red {
+  background-color: var(--theme-red) !important;
+}
+
+.btn-red span::after {
+  background-color: var(--theme-red) !important;
+}
+
+/* If arrow icon needs to support red background, check contrast/icon color */
+/* Assuming white arrow works on red */

@@ -169,7 +169,7 @@ export default function Home() {
                 
                                         {/* Hero Button Start */}
                                         <div className="hero-btn wow fadeInUp" data-wow-delay="0.4s">
-                                            <a href="/contact" className="btn-default"><span>explore more</span></a>
+                                            <a href="/contact" className="btn-default btn-red"><span>explore more</span></a>
                                         </div>
                                         {/* Hero Button End */}
                                     </div>
@@ -205,7 +205,7 @@ export default function Home() {
                 
                                         {/* Hero Button Start */}
                                         <div className="hero-btn wow fadeInUp" data-wow-delay="0.4s">
-                                            <a href="/contact" className="btn-default"><span>explore more</span></a>
+                                            <a href="/contact" className="btn-default btn-red"><span>explore more</span></a>
                                         </div>
                                         {/* Hero Button End */}
                                     </div>

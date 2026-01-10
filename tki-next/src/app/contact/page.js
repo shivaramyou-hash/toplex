@@ -59,9 +59,8 @@ export default function Contact() {
                                   </a>
                               </li>
                           </ul>
-                          {/* Topbar Qoute Button Start */}
                           <div className="topbar-qoute-btn">
-                              <a href="/contact" className="btn-default"><span>Get a quote</span></a>
+                              <a href="/contact" className="btn-default btn-red"><span>Get a quote</span></a>
                           </div>
                           {/* Topbar Qoute Button End */}
                       </div>
@@ -254,7 +253,7 @@ export default function Contact() {
                                       </div>
   
                                       <div className="col-md-12">
-                                          <button type="submit" className="btn-default"><span>submit message</span></button>
+                                          <button type="submit" className="btn-default btn-red"><span>submit message</span></button>
                                           <div id="msgSubmit" className="h3 hidden"></div>
                                       </div>
                                   </div>
