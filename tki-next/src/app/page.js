@@ -95,10 +95,10 @@ export default function Home() {
                                         <li className="nav-item"><a className="nav-link" href="index-slider.html">Home - Slider</a></li>
                                     </ul>
                                 </li>                                
-                                <li className="nav-item"><a className="nav-link" href="about.html">About Us</a></li>
-                                <li className="nav-item"><a className="nav-link" href="services.html">Services</a></li>
-                                <li className="nav-item"><a className="nav-link" href="blog.html">Blog</a></li>
-                                <li className="nav-item"><a className="nav-link" href="projects.html">Projects</a></li>
+                                <li className="nav-item"><a className="nav-link" href="/about">About Us</a></li>
+                                <li className="nav-item"><a className="nav-link" href="/services">Services</a></li>
+                                <li className="nav-item"><a className="nav-link" href="/blog">Blog</a></li>
+                                <li className="nav-item"><a className="nav-link" href="/projects">Projects</a></li>
                                 <li className="nav-item submenu"><a className="nav-link" href="#">Pages</a>
                                     <ul>                                        
                                         <li className="nav-item"><a className="nav-link" href="service-single.html">Service Details</a></li>
@@ -114,7 +114,7 @@ export default function Home() {
                                         <li className="nav-item"><a className="nav-link" href="404.html">404</a></li>
                                     </ul>
                                 </li>
-                                <li className="nav-item"><a className="nav-link" href="contact.html">Contact Us</a></li>                             
+                                <li className="nav-item"><a className="nav-link" href="/contact">Contact Us</a></li>                             
                             </ul>
                         </div>
 
@@ -169,7 +169,7 @@ export default function Home() {
                 
                                         {/* Hero Button Start */}
                                         <div className="hero-btn wow fadeInUp" data-wow-delay="0.4s">
-                                            <a href="contact.html" className="btn-default"><span>explore more</span></a>
+                                            <a href="/contact" className="btn-default"><span>explore more</span></a>
                                         </div>
                                         {/* Hero Button End */}
                                     </div>
@@ -205,7 +205,7 @@ export default function Home() {
                 
                                         {/* Hero Button Start */}
                                         <div className="hero-btn wow fadeInUp" data-wow-delay="0.4s">
-                                            <a href="contact.html" className="btn-default"><span>explore more</span></a>
+                                            <a href="/contact" className="btn-default"><span>explore more</span></a>
                                         </div>
                                         {/* Hero Button End */}
                                     </div>
@@ -288,7 +288,7 @@ export default function Home() {
                 
                                         {/* About Content Btn Start */}
                                         <div className="about-content-btn wow fadeInUp" data-wow-delay="0.75s">
-                                            <a href="about.html" className="btn-default"><span>learn more</span></a>
+                                            <a href="/about" className="btn-default"><span>learn more</span></a>
                                         </div>
                                         {/* About Content Btn End */}
                                     </div>
@@ -1215,10 +1215,10 @@ export default function Home() {
                     <div className="footer-links">
                         <h3>quick links</h3>
                         <ul>
-                            <li><a href="index-2.html">home</a></li>
-                            <li><a href="about.html">about us</a></li>
-                            <li><a href="services.html">services</a></li>
-                            <li><a href="blog.html">blog</a></li>
+                            <li><a href="/">home</a></li>
+                            <li><a href="/about">about us</a></li>
+                            <li><a href="/services">services</a></li>
+                            <li><a href="/blog">blog</a></li>
                         </ul>
                     </div>
                     {/* Footer Links End */}
@@ -1232,7 +1232,7 @@ export default function Home() {
                             <li><a href="#">term & condition</a></li>
                             <li><a href="#">privacy policy</a></li>
                             <li><a href="#">help</a></li>
-                            <li><a href="contact.html">contact us</a></li>
+                            <li><a href="/contact">contact us</a></li>
                         </ul>
                     </div>
                     {/* Footer Links End */}
